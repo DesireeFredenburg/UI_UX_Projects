@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="CSS/CSS_Kitty_WebPage.css">
+        <script src="Java/Kitty_WebPage.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display" rel="stylesheet">
+        <title>Kitty Lovin Time</title>
+    </head>
+    
+    <header>
+        <h1>Kitty Lovin Time</h1>
+    </header>
+
+	<body>
+        <img src="img/siamese_kity.jpg" alt="Siamese Kitten" class="center">
+        <p>A kitten is a juvenile cat. After being born, kittens display <br>
+            primary altriciality and are totally dependent on their mother <br>
+            for survival. They do not normally open their eyes until after <br>
+            seven to ten days. After about two weeks, kittens quickly <br>
+            develop and begin to explore the world outside the nest.</p>
+        
+        <button class="open-button" onclick="openForm()">Open Form</button>
+
+            <div class="form-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+            
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
+            </div>
+            
+    </body>
+    
+    <footer>
+         <div class="foot">Cute Kitty Web-Page &nbsp; &nbsp; by Desiree' Fredenburg &nbsp; &nbsp; 2021 </div>
+        </footer>
+</html>
