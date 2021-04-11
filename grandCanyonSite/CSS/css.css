@@ -1,0 +1,73 @@
+.navbar {
+    font-family: alfarn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+h1 {
+    font-family: alfarn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+}
+
+p {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+}
+
+h5 {
+    font-family: alfarn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    text-align: center;
+}
+
+body {
+    background-color: #ffd504;
+    opacity: 75%;
+}
+
+.sound {
+    align-content: center;
+}
+
+
+
+.opacityPulse-css {
+    animation: opacityPulse 2s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 1;
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+/* Make the element's opacity pulse*/
+/* Usage
+    .myElement {
+        animation: opacityPulse 1s ease-out;
+        animation-iteration-count: infinite;
+        opacity: 0; 
+    }
+*/
+@-webkit-keyframes opacityPulse {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+ul {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
